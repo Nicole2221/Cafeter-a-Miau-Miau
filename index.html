@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafetería Delicioso</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu hoja de estilos CSS aquí -->
+    </head>
+    <body background="fondo1.jpg">
+    <header>
+        <img src="logo.png"width="200" height="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="horarios.html">Horario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <center>
+            <h2>Bienvenido a Cafetería Miau Miau </h2>
+            <br>
+            <h2>Servimos el café más delicioso en la ciudad. Ven y disfruta de una experiencia única.</p>
+        </center>
+    </section>
+    <div class="slider">
+        <ul>
+            <li><img src="imagen1.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen2.jpg" alt=""width="698" height="410"></li>
+            <li><img src="imagen3.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen4.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen5.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen6.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen7.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen8.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen9.jpg" alt="" width="698" height="410"></li>
+            <li><img src="imagen10.jpg" alt=""width="698" height="410"></li>
+        </ul>
+    </div>
+    <br>
+    <center>
+        <h2>Nuestro Menú</h2>
+    </center><br>
+    <center>
+        <div id="im">
+        <img src="1.jpg">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <img src="2.jpg">
+        </div>
+    </center><br>
+    <h1> Siguenos en nuestras redes sociales</h1><br>
+        <footer>
+            <section id="redes" align="center">
+                <a href=""><img width="60" height="60" src="ig.png"></a>
+                <a href=""><img width="60" height="60" src="face.png"></a>
+                <a href=""><img width="60" height="60" src="pin.png"></a>
+                <a href=""><img width="60" height="60" src="tik tok.png"></a>
+                <p class="copyright">
+                    Miau Miau © 2023   
+                 </p>
+        </footer>
+
+        <style type="text/css">
+                #redes{
+                margin-top: 20px;
+            } 
+            h2{
+                color:#320000;
+            }
+            h1{
+                text-align: center;
+                font-family: Gafata;
+                color:  #320000;
+            }
+            #redes img{
+                margin-top: 100px;
+                width: 60px;
+                margin: auto;
+                padding: 30px;
+            }
+            footer{
+                background-color:#D2B48C;
+            }
+            .footer ul{
+                margin-top: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 18px;
+                line-height: 1.6;
+                margin-bottom: 0;
+                text-align: center; 
+            }
+            .footer ul li a{
+                color: inherit;
+                text-decoration: none;
+                opacity: 0.8;
+                list-style: none;
+            }
+            .footer ul li {
+                display: inline-block;
+                padding: 0 15px;
+            }
+            .footer .copyright{
+                margin-top: 15px;
+                text-align: center;
+                font-size: 13px;
+                color: #aaa;
+            }
+            #im img{
+                    width: 30%;
+                    height: 30%;
+            }
+            .slider{
+                width: 100%;
+                margin: auto;
+                overflow: hidden;
+            }
+            .slider ul{
+                padding: 0;
+                display: flex;
+                width: 500%;
+
+                animation: cambio 20s infinite alternate; 
+                animation transition-timing-function: ease-in;
+            }
+            .slider li{
+                width: 200%;
+                list-style: none;
+            }
+            .slider img{
+                width: 100%;
+            }
+
+
+            @keyframes cambio{
+                0% { margin-left: 0; }
+                0% { margin-left: 0; }
+                20% { margin-left: 0; }
+
+                25% { margin-left: -100%;}
+                35% { margin-left: -100%; }
+
+                40% {margin-left: -200%}
+                55% { margin-left: -200%; }
+
+                60% { margin-left: -300% }
+                70% { margin-left: -300%; }
+
+                75% { margin-left: -400%; }
+                100% { margin-left: -400%; }
+            }
+            body, h1, h2, h3, p, ul, li {
+                margin: 0;
+                padding: 0;
+            }
+            * {
+               font-family:Century Gothic;
+            }
+
+            /* Estilos para el encabezado */
+            header {
+                background-color: #8D7B68;
+                color: #ffffff;
+                text-align: center;
+                padding: 20px;
+                font-size: 19px;
+            }
+            /* Estilos para las secciones */
+            section {
+                padding: 20px;
+                margin: 20px 0;
+            }
+
+            section h2 {
+                font-size: 24px;
+                color: #333;
+            }
+            nav {
+                text-align: center; /* Centra el menú horizontalmente */
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                display: inline-block; /* Alinea los elementos en línea */
+            }
+
+            nav li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #000; /* Color del texto */
+                border: none; /* Quita cualquier borde en los enlaces */
+            }
+
+            /* Estilos para el pie de página */
+            footer {
+                background-color: #8D7B68;
+                color: #ffffff;
+                text-align: center;
+                padding: 10px;
+            }
+
+            /* Estilos para enlaces */
+            a {
+                color: #007BFF;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </body>
+</html>
